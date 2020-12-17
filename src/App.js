@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello'
 
 function App(props) {
   return (
@@ -11,6 +12,7 @@ function App(props) {
           <br/>
           Updated by {props.name}     
         </p>
+        <Hello myName="My Name"></Hello>
         <a
           className="App-link"
           href="https://reactjs.org"
